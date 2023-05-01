@@ -22,7 +22,7 @@
 </script>
 
 <div class="write">
-	<input bind:value={title} placeholder="title" />
+	<input bind:value={title} placeholder="title" name="title" />
 	<textarea bind:value={content} placeholder="content" />
 	<button on:click={addTodo}>add</button>
 </div>
